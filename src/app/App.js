@@ -5,7 +5,6 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 
-import "../App.css";
 import Nav from "../components/Nav";
 import TasksPage from "../components/TasksPage";
 import TransactionPage from "../components/TransactionPage";
@@ -17,7 +16,7 @@ function App() {
       <CssBaseline />
       <Box
         sx={{
-          marginTop: 8,
+          marginTop: 5,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
