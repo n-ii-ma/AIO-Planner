@@ -127,15 +127,3 @@
       url("./assets/fonts/quicksand/quicksand-v29-latin-regular.svg#Quicksand")
       format("svg"); /* Legacy iOS */
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: "Roboto";
-}
-
-body {
-  background-color: #f7f7f7;
-}
