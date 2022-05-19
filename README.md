@@ -48,9 +48,11 @@ After installation, you will need to add the following environment variables to 
 - Get current weather info
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/88039431/169310411-7686e3b7-be03-4f99-8b83-ae55e7009b37.png)
-![image](https://user-images.githubusercontent.com/88039431/169310598-fe052509-5073-42c6-aa9f-9bb38d702add.png)
-![image](https://user-images.githubusercontent.com/88039431/169310697-803554ef-7c6b-440c-84ba-12ec32227566.png)
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/88039431/169310411-7686e3b7-be03-4f99-8b83-ae55e7009b37.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/88039431/169310598-fe052509-5073-42c6-aa9f-9bb38d702add.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/88039431/169310697-803554ef-7c6b-440c-84ba-12ec32227566.png" width="300" />
+</p>
 
 ## License
 Distributed under the [MIT](https://opensource.org/licenses/MIT) License.
