@@ -12,7 +12,7 @@ const Nav = () => {
   const [value, setValue] = useState(pathname);
 
   return (
-    <Box sx={{ maxWidth: 600, marginTop: "1em" }}>
+    <Box sx={{ marginTop: "1.5em" }}>
       <BottomNavigation
         showLabels
         value={value}
@@ -29,9 +29,9 @@ const Nav = () => {
         />
         <BottomNavigationAction
           LinkComponent={NavLink}
-          to="/expenses"
-          value="/expenses"
-          label="Expenses"
+          to="/wallet"
+          value="/wallet"
+          label="Wallet"
           icon={<AccountBalanceWalletIcon />}
         />
         <BottomNavigationAction

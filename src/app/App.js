@@ -34,7 +34,7 @@ function App() {
           >
             <Routes>
               <Route path="/" element={<TasksPage />} />
-              <Route path="/expenses" element={<TransactionPage />} />
+              <Route path="/wallet" element={<TransactionPage />} />
               <Route path="/weather" element={<WeatherPage />} />
             </Routes>
             <Nav />

@@ -9,7 +9,6 @@ const TransactionPage = () => {
   return (
     <Box
       sx={{
-        padding: "1em",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

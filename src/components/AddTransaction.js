@@ -38,7 +38,7 @@ const AddTransaction = () => {
       <Typography
         variant="h6"
         component="h6"
-        sx={{ borderBottom: "1px solid #dedede" }}
+        sx={{ borderBottom: "1px solid #dedede", fontSize: "1.2rem" }}
       >
         Add New Transaction
       </Typography>
@@ -68,7 +68,7 @@ const AddTransaction = () => {
         type="submit"
         fullWidth
         variant="contained"
-        sx={{ mt: 3, mb: 2, fontSize: { md: "1rem" } }}
+        sx={{ mt: 3, fontSize: { md: "1rem" } }}
       >
         Add
       </Button>

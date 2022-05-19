@@ -37,7 +37,7 @@ const WeatherForm = () => {
         type="submit"
         fullWidth
         variant="contained"
-        sx={{ mt: 3, mb: 2, fontSize: { md: "1rem" } }}
+        sx={{ mt: 3, fontSize: { md: "1rem" } }}
       >
         Search
       </Button>

@@ -14,7 +14,7 @@ const TransactionList = () => {
       <Typography
         variant="h6"
         component="h6"
-        sx={{ borderBottom: "1px solid #dedede" }}
+        sx={{ borderBottom: "1px solid #dedede", fontSize: "1.2rem" }}
       >
         History
       </Typography>

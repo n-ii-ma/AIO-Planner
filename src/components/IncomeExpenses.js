@@ -46,10 +46,14 @@ const IncomeExpenses = () => {
           borderRight: "1px solid #dedede",
         }}
       >
-        <Typography variant="h6" component="h6" sx={{ fontSize: "1.2rem" }}>
+        <Typography variant="h6" component="h6" sx={{ fontSize: "1.1rem" }}>
           Income
         </Typography>
-        <Typography variant="h6" component="h6" sx={{ color: "#2ecc71" }}>
+        <Typography
+          variant="h6"
+          component="h6"
+          sx={{ color: "#2ecc71", fontSize: "1.2rem" }}
+        >
           ${income}
         </Typography>
       </Box>
@@ -62,10 +66,14 @@ const IncomeExpenses = () => {
           justifyContent: "center",
         }}
       >
-        <Typography variant="h6" component="h6" sx={{ fontSize: "1.2rem" }}>
+        <Typography variant="h6" component="h6" sx={{ fontSize: "1.1rem" }}>
           Expense
         </Typography>
-        <Typography variant="h6" component="h6" sx={{ color: "#c0392b" }}>
+        <Typography
+          variant="h6"
+          component="h6"
+          sx={{ color: "#c0392b", fontSize: "1.2rem" }}
+        >
           ${expense}
         </Typography>
       </Box>
