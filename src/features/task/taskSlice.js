@@ -8,12 +8,29 @@ const taskSlice = createSlice({
     addTask: (state, action) => {
       const newTask = {
         id: uuidv4(),
-        text: action.payload.text,
-        date: action.payload.date,
+        text: action.payload,
         completed: false,
       };
-      
+
       state.push(newTask);
+    },
+    toggleComplete: (state, action) => {
+      return state.map((task) => {
+        if (task.id === action.payload.id) {
+          return {
+            ...task,
+            completed: !task.completed,
+          };
+        } else {
+          return task;
+        }
+      });
+    },
+    removeTask: (state, action) => {
+      const taskIndex = state.findIndex(
+        (task) => task.id === action.payload.id
+      );
+      state.splice(taskIndex, 1);
     },
   },
 });
@@ -22,7 +39,7 @@ const taskSlice = createSlice({
 export const selectTasks = (state) => state.task;
 
 // Actions
-export const { addTask } = taskSlice.actions;
+export const { addTask, toggleComplete, removeTask } = taskSlice.actions;
 
 // Reducer
 export default taskSlice.reducer;

@@ -1,11 +1,13 @@
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 
 import "../App.css";
-import TaskForm from "../components/TaskForm";
 import Nav from "../components/Nav";
+import TaskForm from "../components/TaskForm";
+import TaskList from "../components/TaskList";
 
 function App() {
   return (
@@ -28,9 +30,18 @@ function App() {
               backgroundColor: "#f7f7f7",
             }}
           >
+            <TaskList />
             <TaskForm />
             <Nav />
           </Card>
+          <Typography
+            textAlign="center"
+            variant="subtitle2"
+            component="p"
+            paddingTop="1em"
+          >
+            &copy; {new Date().getFullYear()} AIO Planner
+          </Typography>
         </Container>
       </Box>
     </>
