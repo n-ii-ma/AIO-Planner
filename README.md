@@ -3,7 +3,7 @@
 
 # AIO Planner
 
-A multipurpose React/Redux app which implements Google’s Material Design.
+A multipurpose React/Redux app which implements Google’s Material Design through Material UI 5.
 
 ## Table of contents
 + [General Info](#general-info)
