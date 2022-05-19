@@ -6,8 +6,7 @@ import Card from "@mui/material/Card";
 
 import "../App.css";
 import Nav from "../components/Nav";
-import TaskForm from "../components/TaskForm";
-import TaskList from "../components/TaskList";
+import TaskPage from "../components/TaskPage";
 
 function App() {
   return (
@@ -30,8 +29,7 @@ function App() {
               backgroundColor: "#f7f7f7",
             }}
           >
-            <TaskList />
-            <TaskForm />
+            <TaskPage />
             <Nav />
           </Card>
           <Typography

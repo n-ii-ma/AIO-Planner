@@ -17,6 +17,7 @@ const TaskForm = () => {
 
     dispatch(addTask(input));
 
+    // Clear input field
     setInput("");
   };
 
