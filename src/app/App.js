@@ -23,7 +23,7 @@ function App() {
           alignItems: "center",
         }}
       >
-        <Container component="main" maxWidth="sm">
+        <Container component="main" maxWidth="xs">
           <Card
             raised
             sx={{

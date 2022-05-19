@@ -22,7 +22,7 @@ const TaskList = () => {
           <Box key={task.id} sx={{ textAlign: "left", padding: "0.5em" }}>
             <Card
               sx={{
-                padding: "1em",
+                padding: "0.5em",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "space-between",
