@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import Box from "@mui/material/Box";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
@@ -18,12 +19,24 @@ const Nav = () => {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Tasks" icon={<TaskAltIcon />} />
         <BottomNavigationAction
-          label="Expense Tracker"
+          LinkComponent={NavLink}
+          to="/"
+          label="Tasks"
+          icon={<TaskAltIcon />}
+        />
+        <BottomNavigationAction
+          LinkComponent={NavLink}
+          to="/expenses"
+          label="Expenses"
           icon={<AccountBalanceWalletIcon />}
         />
-        <BottomNavigationAction label="Weather" icon={<ThermostatIcon />} />
+        <BottomNavigationAction
+          LinkComponent={NavLink}
+          to="/weather"
+          label="Weather"
+          icon={<ThermostatIcon />}
+        />
       </BottomNavigation>
     </Box>
   );

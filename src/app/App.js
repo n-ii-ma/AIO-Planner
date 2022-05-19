@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -6,7 +7,9 @@ import Card from "@mui/material/Card";
 
 import "../App.css";
 import Nav from "../components/Nav";
-import TaskPage from "../components/TaskPage";
+import TasksPage from "../components/TasksPage";
+import TransactionPage from "../components/TransactionPage";
+import WeatherPage from "../components/WeatherPage";
 
 function App() {
   return (
@@ -29,7 +32,11 @@ function App() {
               backgroundColor: "#f7f7f7",
             }}
           >
-            <TaskPage />
+            <Routes>
+              <Route path="/" element={<TasksPage />} />
+              <Route path="/expenses" element={<TransactionPage />} />
+              <Route path="/weather" element={<WeatherPage />} />
+            </Routes>
             <Nav />
           </Card>
           <Typography

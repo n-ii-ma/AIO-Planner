@@ -5,7 +5,7 @@ import TaskList from "./TaskList";
 import TaskForm from "./TaskForm";
 import { selectTasks } from "../features/task/taskSlice";
 
-const TaskPage = () => {
+const TasksPage = () => {
   const tasks = useSelector(selectTasks);
 
   return (
@@ -17,4 +17,4 @@ const TaskPage = () => {
   );
 };
 
-export default TaskPage;
+export default TasksPage;
