@@ -26,7 +26,7 @@ const Task = ({ task }) => {
       <Box>
         <Checkbox
           {...label}
-          icon={<CheckCircleOutlinedIcon />}
+          icon={<CheckCircleOutlinedIcon color="success" />}
           checkedIcon={<CheckCircleIcon />}
           color="success"
           onChange={() => dispatch(toggleComplete(task))}

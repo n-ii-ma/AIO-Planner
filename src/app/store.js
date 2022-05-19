@@ -1,4 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
+
 import remainingTasksSliceReducer from "../features/remainingTasks/remainingTasksSlice";
 import taskSliceReducer from "../features/task/taskSlice";
 import weatherSliceReducer from "../features/weather/weatherSlice";
