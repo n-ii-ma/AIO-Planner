@@ -7,6 +7,7 @@ A multipurpose React/Redux app which implements Google’s Material Design throu
 
 ## Table of contents
 + [General Info](#general-info)
++ [Address](#address)
 + [Technologies](#technologies)
 + [Setup](#setup)
 + [Features](#features)
@@ -16,6 +17,9 @@ A multipurpose React/Redux app which implements Google’s Material Design throu
 
 ## General Info
 This React/Redux app allows clients to keep track of their tasks, calculate their income/expenses, and search the current weather of any city in the world.
+
+## Address
+https://aio-planner.netlify.app/
 
 ## Technologies
 Project is created with:
